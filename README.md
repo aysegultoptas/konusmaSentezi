@@ -1,1 +1,2 @@
 # konusmaSentezi
+selamm
