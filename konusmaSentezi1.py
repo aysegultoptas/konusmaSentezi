@@ -10,7 +10,7 @@ ile antipiretik etki gösterir. Parasetamol, prostaglandin sentezini önler. Gas
 sistemden hızla absorbe olur. Parol, analjezik ve antipiretik etkilerini 15-30 dakikada ve 3-4
 saat süreyle gösterir. soğuk algınlığı, influenza ve diğer bakteriyel ve viral
 enfeksiyonlar da ise hem analjezik hem de antipiretik etki gösterir.
-Kontrendikasyonları:Anemili veya kardiyak, pulmoner, renal ya da hepatik hastalıkları olan kiĢilerde doktor
+Kontrendikasyonları:Anemili veya kardiyak, pulmoner, renal ya da hepatik hastalıkları olan kişilerde doktor
 kontrolü olmadan kullanılmamalıdır.""")
 
 data.save("deneme2.png")
