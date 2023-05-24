@@ -1,4 +1,7 @@
-
+from typing import Text
+from gtts import gTTS
+import os
+import qrcode
 from pyzbar import pyzbar 
 from PIL import Image
 
