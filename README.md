@@ -18,3 +18,4 @@ QR kodu decode ederek seslendirme işlemini gerçekleştiren python kodu yer alm
 * arayuz.py :
 Webcam üzerinden okutulan qr kodun seslendirme işlemini bir arayüz üzerinden gerçekleştirmek için kullanılan python kodu yer almaktadır.
 
+![image](https://github.com/aysegultoptas/konusmaSentezi/assets/81236984/63c49781-9a30-4785-980b-79633aa8e2c2)
