@@ -93,10 +93,10 @@ import os
 import qrcode
 
 
-class Pencere(QtWidgets.QWidget): # mirasları aldı.
+class Pencere(QtWidgets.QWidget): 
 
     def __init__(self):
-        super().__init__()  # miras aldıklarını çalıştırdık direkt.
+        super().__init__()  
         self.init_ui()
 
     def init_ui(self):
@@ -106,7 +106,7 @@ class Pencere(QtWidgets.QWidget): # mirasları aldı.
         self.buton.setStyleSheet('background-color : pink')
         self.say = 0
         global resim
-        resim = QtWidgets.QLabel() # tekrar etiket oluşturduk ve bu etikete yine istediğimiz şeyi ekleyebiliriz.
+        resim = QtWidgets.QLabel() 
         
 
         v_box = QtWidgets.QVBoxLayout()
@@ -119,11 +119,11 @@ class Pencere(QtWidgets.QWidget): # mirasları aldı.
         h_box.addLayout(v_box)
         h_box.addStretch()
 
-        self.setLayout(h_box)  #v_box u h_boxun içine attık. o yüzden h_boxu göstermelisiniz.
+        self.setLayout(h_box)  
 
-        self.buton.clicked.connect(self.qr_oku)  # Burada butona clicklediğinde verilen fonksiyona connectle dedik.
+        self.buton.clicked.connect(self.qr_oku)  
        
-        resim.setPixmap(QtGui.QPixmap("qr.png")) #bu şekilde etikete resim ekleyebilirsiniz. Burada PyQt5 in yukarıda da import ettiğimiz QtGui fonksiyonunu kullanıyoruz.
+        resim.setPixmap(QtGui.QPixmap("qr.png")) 
         resim.move(140,60)
         
         self.show()
