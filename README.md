@@ -3,7 +3,8 @@
 * konusmaSentezi1.py :
 konusmaSentezi1 python kodu içerisinde ilaç prospektüsünün bir kısmını karekoda aktarıp bunun seslendirilmesi sağlanmıştır. Projenin ilk denemesidir.
 
-* qr_kod_olusturma.py :\n
+* qr_kod_olusturma.py :
+
 Decode ederek okumak için qr kod oluşturan python kodu yer almaktadır. Örnek olarak Parol prospektüsünün bir kısmı kullanılarak qr kod oluşturulmuştur. Daha sonra oluşturulan bu qr kod diğer python kodlarında decode edilmek üzere kullanılmıştır.
 
 * webcam_qr_okuma_kaydetme.py :
