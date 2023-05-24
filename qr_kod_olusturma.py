@@ -13,4 +13,4 @@ enfeksiyonlar da ise hem analjezik hem de antipiretik etki gösterir.
 Kontrendikasyonları:Anemili veya kardiyak, pulmoner, renal ya da hepatik hastalıkları olan kiĢilerde doktor
 kontrolü olmadan kullanılmamalıdır.""")
 
-data.save("deneme2.png")
+data.save("deneme.png")
